@@ -1,0 +1,71 @@
+.news{
+    display: inline-block;
+    width: 95dvh;
+    height: 47dvh;
+    background-color: rgb(41, 37, 37);
+    border-radius: 2dvh;
+}
+.Ul_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 85dvh;   
+}
+.Ul_grid li{
+    display: inline-block;
+    width: 41dvh;
+    height: 13dvh;
+    border-top: 1px solid rgba(95, 94, 94, 0.356);
+}
+.Ul_grid li:nth-child(odd){
+    border-right: 1px solid rgba(95, 94, 94, 0.356);
+}
+.Ul_grid li:nth-child(even){
+    padding-left: 30px;
+}
+.Ul_grid li:first-child{
+    border-top: 0;
+}
+.Ul_grid li:nth-child(2){
+    border-top: 0;
+}
+.Ul_grid li a{
+    display: block;
+    width: 35dvh;
+    height: 10dvh;
+    margin-top: 2dvh;
+}
+.newsSpan{
+    display: inline-block;
+    word-break: break-all;
+    font-size: 1.5dvh;
+    color: white;
+    margin: 0;
+    margin-left: 1dvh;
+    margin-top: 2dvh;
+    vertical-align: top;
+    height: 7dvh;
+    width: 20dvh;
+}
+.newsSpan:hover{
+    color: rgb(153, 151, 151);
+}
+.Ul_grid .images{
+    display: inline-block;
+    background: url('./images/assasin.jpg') no-repeat;
+    background-size: 20dvh;
+    transition: background-size 0.5s;
+    background-position-x: center;
+    width: 13dvh;
+    height: 9dvh;
+    border-radius: 7px;
+}
+.Ul_grid .images:hover{
+    background-size: 23dvh;
+}
+.news h3{
+    font-size: 17px;
+    padding-left: 40px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+}

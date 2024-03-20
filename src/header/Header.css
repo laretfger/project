@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+header{
+    display: grid;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    z-index: 100;
+}
+header div:nth-child(3) {
+    display: flex;
+    justify-content: right;
+    margin-right: 3dvh;
+}
+header .img button{
+    margin-right: 1dvh;
+    margin-top: 1dvh;
+    border-radius: 3dvh;
+}
+header .img button:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none; 
+}
+.ref a{
+    font-size: 2dvh;
+    color: white;
+}
+.ref a:hover{
+    color: red;
+}
+.ref ul li{
+    display: inline-block;
+    margin-left: 2dvh;
+}
+.ref ul{
+    padding: 1dvh;
+}
+.search{
+    background: url('./images/poisk.png') no-repeat;
+    background-size: contain;
+}
+.comment{
+    background: url('./images/coment.png') no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.profile{
+    background: url('./images/profil.png') no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.logo{
+    height: 6dvh;
+    width: 6dvh;
+    margin-top: 1dvh;
+    margin-left: 2dvh;
+}
+.img button{
+    height: 4dvh;
+    width: 4dvh;
+}
+.img{
+    display: inline-block;
+}
+.logo{
+    background: url('./images/coment.png') no-repeat;
+    background-size: contain;
+}

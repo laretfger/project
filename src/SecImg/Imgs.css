@@ -1,0 +1,146 @@
+.imgs{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 2fr 1fr;
+    height: 50dvh;
+    width: 145dvh;
+    margin: 3dvh;
+    margin-left: 4dvh;
+    gap: 2dvh;
+}
+.mainImgs{
+    display: inline-flex;
+    background-color: rgb(31, 30, 30);
+    border-radius: 1dvh;
+    width: 140dvh;
+    margin-top: 10dvh;
+}
+.imgs a:nth-child(1){
+    background: url('./images/assas.jpg') no-repeat;
+    background-size: 65dvh;
+    transition: background-size 0.4s;
+    background-position-x: center;
+    grid-column: 1/ span 3;
+}
+.imgs a:nth-child(2){
+    background: url('./images/assasin.jpg') no-repeat;
+    background-size: 70dvh;
+    transition: background-size 0.4s;
+    background-position-x: center;
+    grid-column: 4/ span 3;
+}
+.imgs a:nth-child(1):hover{
+    background-size: 70dvh;
+}
+.imgs a:nth-child(2):hover{
+    background-size: 75dvh;
+}
+.imgs a:nth-child(3){
+    background: url('./images/assas.jpg') no-repeat;
+    background-size: 45dvh;
+    transition: background-size 0.4s;
+    background-position-x: center;
+    grid-column: 1/ span 2;
+}
+.imgs a:nth-child(4){
+    background: url('./images/assasin.jpg') no-repeat;
+    background-size: 45dvh;
+    transition: background-size 0.4s;
+    background-position-x: center;
+    grid-column: 3/ span 2;
+}
+.imgs a:nth-child(5){
+    background: url('./images/assasin.jpg') no-repeat;
+    background-size: 45dvh;
+    transition: background-size 0.4s;
+    background-position-x: center;
+    grid-column: 5/ span 2;
+}
+.imgs a:nth-child(3):hover{
+    background-size: 50dvh;
+}
+.imgs a:nth-child(4):hover{
+    background-size: 50dvh;
+}
+.imgs a:nth-child(5):hover{
+    background-size: 50dvh;
+}
+.imgs a{
+    border-radius: 1dvh;
+}
+
+.imgs .svg{
+    display: inline-block;
+    margin: 1dvh;
+    height: 4dvh;
+    width: 4dvh;
+}
+.imgs .spanHight{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1.5dvh;
+    font-size: 1.5dvh;
+}
+.imgs span{
+    color: white;
+}
+.imgs h3{
+    color: white;
+}
+.sceLow{
+    margin: 1.3dvh;
+    margin-top: 17dvh;
+}
+.sceLow h3{
+    font-size: 2dvh;
+    margin: 0dvh;
+    margin-bottom: 2dvh;
+}
+.sceLow2{
+    margin: 1.3dvh;
+    margin-top: 5dvh;
+}
+.sceLow2 h3{
+    font-size: 1.5dvh;
+    margin-bottom: 0.5dvh;
+}
+.sceLow span{
+    font-size: 1.5dvh;
+}
+.sceHight2 .svg{
+    margin: 1dvh;
+    height: 3dvh;
+    width: 3dvh;
+}
+.imgs .spanLow{
+    color: gray;
+}
+.sceLow2 span{
+    font-size: 1dvh;
+}
+.low .svg{
+    display: inline-block;
+    margin: 7px;
+    height: 20px;
+    width: 20px;
+}
+.low .spanHight{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 7px;
+}
+.low .spanLow{
+    color: gray;
+}
+.low span{
+    color: white;
+    font-size: 13px;
+}
+.low h3{
+    color: white;
+    font-size: 15px;
+}
+.low a section:nth-child(2){
+    margin: 10px;
+    margin-top: 5dvh;
+}

@@ -1,0 +1,75 @@
+.blogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3dvh;
+    padding: 0;
+    width: 80dvh;
+    margin-top: 3dvh;
+}
+.blogs .BlogLi{ 
+    display: inline-block;
+    background-color: rgb(41, 37, 37);
+    border-radius: 10px;
+    width: 46dvh;
+}
+.images{
+    background: url('./images/assasin.jpg') no-repeat;
+    background-size: 50dvh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-position-x: center;
+    transition: background-size 0.7s;
+    width: 46dvh;
+    height: 23dvh;
+}
+.images:hover{
+    background-size: 55dvh;
+}
+.avtor{
+    display: flex;
+    height: 4dvh;
+    justify-content: space-between;
+}
+.group{
+    display: flex;
+    width: 40dvh;
+    flex-direction: column;
+    row-gap: 1dvh;
+}
+.blog span{
+    color: white;
+    font-size: 1.5dvh;
+}
+.blog .title{
+    margin-top: 0.7dvh;
+}
+.blog .content-maker span:hover{
+    color: red;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 46dvh;
+    height: 40dvh;
+}
+.blog .refBlogSpan{
+    margin-bottom: 3dvh;
+}
+.refBlogSpan h3:hover{
+    color: red;
+}
+.refBlog{
+    display: flex;
+}
+.date{
+    height: 4dvh;
+}
+.blog h3{
+    font-size: 2dvh;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin: 0;
+    height: 5dvh;
+    color: white;
+}

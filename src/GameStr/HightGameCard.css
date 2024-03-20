@@ -1,0 +1,24 @@
+.HightGameCard{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2dvh;
+    height: 35dvh;
+    width: 30dvh;
+}
+.spanHightGameCard{
+    width: 35dvh;
+    color: gray;
+    font-size: 2dvh;
+}
+.HightGameCardImg{
+    height: 35dvh;
+    width: 30dvh;
+    background: url('./images/assas.jpg') no-repeat;
+    border-radius: 2dvh;
+    background-size: 55dvh;
+    background-position-x: center;
+    transition: background-size 0.5s;
+}
+.HightGameCardImg:hover{
+    background-size: 60dvh;
+}

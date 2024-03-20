@@ -1,0 +1,38 @@
+.layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: rgb(31, 30, 30);
+    grid-column-gap: 3dvh;
+}
+.discussing{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5dvh;
+}
+.discussing li{
+    border-radius: 1dvh;
+    background-color: rgb(41, 37, 37);
+    display: block;
+}
+.mainGameNews{
+    display: inline-flex;
+    margin-top: 10dvh;
+}
+.gameNews{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5dvh;
+    gap: 3dvh;
+}
+.gameNews h1{
+    font-family: Rubik,sans-serif;
+    color: white;
+}
+.articles{
+    margin-right: 5dvh;
+}
+.articles h1{
+    font-family: Rubik,sans-serif;
+    margin-left: 5dvh;
+    color: white;
+}

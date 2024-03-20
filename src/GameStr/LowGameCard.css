@@ -1,0 +1,24 @@
+.LowGameCard{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1dvh;
+    height: 27dvh;
+    width: 23dvh;
+}
+.spanLowGameCard{
+    width: 23dvh;
+    color: gray;
+    font-size: 2dvh;
+}
+.LowGameCardImg{
+    height: 28dvh;
+    width: 23dvh;
+    background: url('./images/assas.jpg') no-repeat;
+    border-radius: 2dvh;
+    background-size: 40dvh;
+    background-position-x: center;
+    transition: background-size 0.5s;
+}
+.LowGameCardImg:hover{
+    background-size: 45dvh;
+}

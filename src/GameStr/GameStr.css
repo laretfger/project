@@ -1,0 +1,59 @@
+.mainGameStr{
+    display: inline-block;
+    margin-top: 10dvh;
+    background-color: rgb(31, 30, 30);
+    position: relative;
+    border-radius: 2dvh;
+    width: 100%;
+}
+
+.secGameCardHight{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 3dvh;
+    margin-top: 5dvh;
+}
+.secGameCardLow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 4dvh;
+    margin-top: 5dvh;
+}
+.reliz{
+    margin-top: 3dvh;
+    margin-left: 5dvh;
+    font-size: 3dvh;
+    color: white;
+}
+.attention{
+    margin-top: 5dvh;
+    margin-left: 5dvh;
+    font-size: 3dvh;
+    color: white;
+}
+.gameStrBlogs{
+    margin-top: 5dvh;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5dvh;
+}
+.gameStrBlogs li{
+    width: 40dvh;
+    list-style: none;
+    background-color: rgb(41, 37, 37);
+}
+.gameStrBlogs .blog{
+    width: 40dvh;
+}
+.gameStrBlogs .images{
+    background-size: 50dvh;
+    width: 40dvh;
+}
+.gameStrBlogs .images:hover{
+    background-size: 55dvh;
+}
+.gameStrBlogs .group{
+    width: 37dvh;
+}

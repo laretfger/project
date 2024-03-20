@@ -1,0 +1,39 @@
+.Compilations{
+    width: 37dvh;
+    display: inline-block;
+    position: relative;
+}
+.Compilations_ul li:last-child{
+    padding-top: 2dvh;
+    padding-bottom: 2dvh;
+    border-bottom: 0.1dvh gray solid;
+    border-top: 0.1dvh gray solid;
+    width: 27dvh;
+}
+.Compilations_ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 1dvh;
+    
+}
+.Compilations h3{
+    color: rgb(150, 147, 147);
+    font-size: 1.5dvh;
+    margin-left: 2.5dvh;
+    margin-bottom: 2dvh;
+}
+.Compilations a{
+    display: flex;
+    padding-left: 1dvh;
+    width: 19dvh;
+    height: 4dvh;
+    color: white;
+    border-radius: 0.7dvh;
+}
+.Compilations a:hover{
+    background-color: rgb(58, 57, 57);
+}
+.Compilations_ul a:focus{
+    background-color: rgb(58, 57, 57);
+}

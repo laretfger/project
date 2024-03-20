@@ -1,0 +1,51 @@
+.BlogLowLi{
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    flex-direction: row;
+    gap: 1dvh;
+    grid-column: 1/ span 2;
+    border-radius: 2dvh;
+}
+.blogContentLow span{
+    font-size: 1.5dvh;
+    color: white;
+}
+.blogContentLow{
+    display: inline-block;
+    width: 25dvh;
+    height: 30dvh;  
+    margin: 2dvh;
+    margin-left: 4dvh;
+}
+.refTitleSpan{
+    display: block;
+    margin-bottom: 3dvh;
+}
+.refTitle{
+    display: block;
+    margin-top: 2dvh;
+    width: 25dvh; 
+}
+.refTitle h3{
+    padding: 0;
+    font-size: 1.7dvh;
+}
+.refTitle h3:hover{
+    color: red;
+}
+.imgLow{
+    display: block;
+    background: url('./images/assas.jpg') no-repeat;
+    background-size: 30dvh;
+    transition: background-size 0.5s;
+    background-position-x: center;
+    border-radius: 1dvh;
+    width: 25dvh;
+    height: 14dvh;
+}
+.imgLow:hover{
+    background-size: 35dvh;
+}
+.titleLow{
+    margin: 1.5dvh;
+}

@@ -1,0 +1,62 @@
+.imgPagination{
+    display: flex;
+    flex-direction: column;
+    row-gap: 17dvh;
+    background: url('./images/assas.jpg') no-repeat;
+    background-size: 140dvh;
+    transition: background-size 0.5s;
+    background-position-x: center;
+    width: 140dvh;
+    height: 50dvh;
+}
+.imgPagination:hover{
+    background-size: 153dvh;
+}
+.svgCircle{
+    display: flex;
+    margin-bottom: 3dvh;
+    margin-left: 2dvh;
+    width: 20dvh;
+    transform: translate(1dvh, -15dvh);
+}
+.descriptionGame{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3dvh;
+}
+.descriptionGame a{
+    font-size: 3dvh;
+    color: white;
+    text-decoration: auto;
+    margin-left: 3dvh;
+}
+.swiperGameStr{
+    color: rgb(112, 111, 111);
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5dvh;
+    width: 5.5dvh;
+    height: 4.3dvh;
+    border-radius: 10dvh;
+    transform: translate(1px, -55px);
+}
+.swiperGameStr:hover{
+    cursor: pointer;
+}
+.spanSvgGameStr{
+    height: 7dvh;
+    width: 7dvh;
+}
+.spanSvgGameStr svg{
+    width: 6dvh;
+}
+.titleGame h1{
+    font-size: 4dvh;
+    margin-left: 3dvh;
+    color: white;
+}
+.titleGame span{
+    font-size: 3dvh;
+    margin-left: 3dvh;
+    color: white;
+}

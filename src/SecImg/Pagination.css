@@ -1,0 +1,35 @@
+
+.pagination{
+    width: 140dvh;
+    height: 5dvh;
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    justify-content: center;
+    margin-top: -0.7dvh;
+    margin-bottom: 5dvh;
+    border-bottom-left-radius: 2dvh;
+    border-bottom-right-radius: 2dvh;
+}
+.pagination svg{
+    height: 30px;
+    width: 30px;
+}
+.pagination svg button{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.spanSvg{
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+.swiper{
+    color: rgb(112, 111, 111);
+    display: flex;
+    transform: translate(13px, -27px);
+}
+.swiper:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,34 @@
+.BlogHightLi{
+    display: block;
+    grid-column: 1/ span 2;
+}
+.BlogHight{
+    display: block;
+    background: url('./images/assas.jpg') no-repeat;
+    background-size: 100dvh;
+    transition: background-size 0.5s;
+    background-position-x: center;
+    border-radius: 2dvh;
+    height: 40dvh;
+    width: 95dvh;
+}
+.BlogHight:hover{
+    background-size: 110dvh;
+}
+.BlogHight span{
+    color: gray;
+    font-size: 2.5dvh;
+}
+.BlogHight h3{
+    color: gray;
+    font-size: 2.5dvh;
+}
+.BlogHight h2{
+    color: white;
+    font-size: 2.5dvh;
+    margin: 0;
+}
+.BlogHightSec{
+    margin: 3dvh;
+    margin-top: 27dvh;
+}

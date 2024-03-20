@@ -1,0 +1,34 @@
+.blogsStr{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3dvh;
+    list-style: none;
+}
+.blogsStr li{
+    background-color: rgb(41, 37, 37);
+    border-radius: 1dvh;
+    width: 41dvh;
+}
+.blogsStr .blog{
+    align-items: start;
+    width: 43dvh;
+}
+.blogsStr .blog .group{
+    margin-left: 3dvh;
+    width: 35dvh;
+}
+.blogsStr .images{
+    width: 41dvh;
+}
+.blogStrMain{
+    display: inline-flex;
+    flex-direction: column;
+    width: 140dvh;
+    background-color: rgb(31, 30, 30);
+    margin-top: 10dvh;
+}
+.blogStrH1{
+    color: white;
+    margin: 2dvh;
+    margin-left: 5dvh;
+}
